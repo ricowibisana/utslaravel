@@ -14,15 +14,7 @@ class BajuSeeder extends Seeder
      */
     public function run()
     {
-        // $faker = Faker::create('id_ID');
 
-        // for ($i=1; $i <= 100 ; $i++) { 
-        	
-        // 	DB::table('karyawan')->insert([
-        // 		'nama' => 
-        // 	]);
-
-        // }
         factory(\App\Jenis::class, 5)->create();
         factory(\App\Baju::class, 5)->create();
     }
